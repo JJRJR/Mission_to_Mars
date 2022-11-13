@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import datetime as dt
 
-def scrape_all()
+def scrape_all():
 
     executable_path = {'executable_path': ChromeDriverManager().install()}
     browser = Browser('chrome', **executable_path, headless=False)
